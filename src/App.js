@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Services from './Components/Services';
+import HeroSection from './Components/HeroSection'; 
+import Blogs from './Components/Blogs';
+import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='bg-primary'>Welcome to bootstrap</h1>
+    <div>
+      <HeroSection />
+      <Services />
+      <Blogs />
+      <Contact />
     </div>
   );
 }
