@@ -6,13 +6,12 @@ import image4 from '../images/blog-4.png';
 
 const Blogs = () => {
   return (
-    <section className="bsb-blog-5 py-3 py-md-5 py-xl-8">
+    <section className="bsb-blog-5 py-3 py-md-5 py-xl-8" id="blogs">
       <div className="container">
         <div className="row justify-content-md-center">
           <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
             <h2 className="display-5 fs-8 strongly text-primary mb-4 mb-md-5 text-center">Explore and enjoy the blogs written by our passionate techies.</h2>
             <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark" />
-
           </div>
         </div>
       </div>

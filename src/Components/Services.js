@@ -3,7 +3,7 @@ import remote from '../images/remote.png';
 
 const Services = () => {
   return (
-    <section className="bsb-service-7 py-3 py-xl-8">
+    <section className="bsb-service-7 py-3 py-xl-8" id="services">
       <div className="container">
             <h2 className="fs-8 mb-2  py-4 strongly text-center  display-3 text-primary">What We Offer</h2>
             <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark" />
