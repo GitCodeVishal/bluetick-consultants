@@ -23,7 +23,7 @@ const Footer = () => {
                         <div className="col-12 col-sm-6 col-md-3 col-lg-2">
                             <div className="widget">
                                 <h4 className="widget-title mb-4">Resources</h4>
-                                <ul className="list-unstyled d-flex align-items-center">
+                                <ul className="list-unstyled d-flex flex-wrap align-items-center">
                                     <li className="mb-2 me-3 d-flex align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-arrow-right-circle-fill me-2" viewBox="0 0 16 16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
@@ -36,7 +36,7 @@ const Footer = () => {
                         <div className="col-12 col-sm-6 col-md-3 col-lg-2">
                             <div className="widget">
                                 <h4 className="widget-title mb-4">Products</h4>
-                                <ul className="list-unstyled d-flex align-items-center">
+                                <ul className="list-unstyled d-flex flex-wrap align-items-center">
                                     <li className="mb-2 me-3 d-flex align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-arrow-right-circle-fill me-2" viewBox="0 0 16 16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
@@ -80,7 +80,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-6 col-md-4 order-1 order-md-2">
-                            <ul className="nav justify-content-center justify-content-sm-end">
+                            <ul className="nav justify-content-center justify-content-sm-end flex-wrap">
                                 <li className="nav-item">
                                     <a className="nav-link link-dark" href="#!">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
